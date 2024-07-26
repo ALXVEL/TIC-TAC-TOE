@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIC-TAC-TOE</title>
+    <link rel="stylesheet" href="design.css">
+    <script src="game.js" defer></script>
+</head>
+<body>
+    <div class="upper">
+        <h3>Tic Tac Toe Game!</h3>
+        <button class="button_reset">RESET</button>
+    </div>
+    <div class="content">
+        <div class="board">
+            <div class="first-row">
+                <div class="left">
+    
+                </div>
+                <div class="middle">
+    
+                </div>
+                <div class="right">
+    
+                </div>
+            </div>
+            <div class="second-row">
+                <div class="left">
+    
+                </div>
+                <div class="middle">
+    
+                </div>
+                <div class="right">
+    
+                </div>
+            </div>
+            <div class="third-row">
+                <div class="left">
+    
+                </div>
+                <div class="middle">
+    
+                </div>
+                <div class="right">
+    
+                </div>
+            </div>
+        </div>
+        <div class="players">
+            <table class = "players_table">
+                <thead>
+                    <tr>
+                        <th>Player</th>
+                        <th>Symbol</th>
+                        <th>Turn</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="font-weight: bold;">One</td>
+                        <td>X</td>
+                        <td class = "PlayerOneTurn"></td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold;" >Two</td>
+                        <td>O</td>
+                        <td class="PlayerTwoTurn"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="game-tracker">
+        <h4 style="font-weight:bold; border-bottom: 1px black solid;">Game Details:</h4>
+        <ul class="tracker">
+
+        </ul>
+    </div>
+    
+</body>
+</html>
